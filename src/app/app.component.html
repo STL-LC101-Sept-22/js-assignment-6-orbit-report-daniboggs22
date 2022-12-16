@@ -1,5 +1,5 @@
 <h1>Orbit Report</h1>
-
+<app-orbit-list [satellites]="displayList"></app-orbit-list>
 <div class="search-form">
   Search:
   <input
@@ -14,5 +14,3 @@
 <app-orbit-counts [satellites]="displayList"></app-orbit-counts>
 
 <!-- TODO 1: add list component to app HTML -->
-@component({ selector: 'app-orbit-list', templateUrl:
-'./orbit-list.component.html', styleUrls: ['./orbit-list.component.css'] })
